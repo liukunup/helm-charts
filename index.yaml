@@ -1,0 +1,26 @@
+apiVersion: v1
+entries:
+  jmeter:
+  - apiVersion: v2
+    appVersion: "5.5"
+    created: "2022-08-30T16:01:45.216749617Z"
+    description: A Helm chart for JMeter
+    digest: 9c1d6291c07535441b542ccbd740942893db815b7e9563234418f3b1bc0f7044
+    icon: https://jmeter.apache.org/images/logo.svg
+    keywords:
+    - JMeter
+    - Performance
+    - Distribution
+    - Test
+    maintainers:
+    - email: liukunup@outlook.com
+      name: Liu Kun
+      url: https://github.com/liukunup
+    name: jmeter
+    sources:
+    - https://github.com/liukunup/JMeter
+    type: application
+    urls:
+    - https://github.com/liukunup/helm-charts/releases/download/jmeter-0.1.0/jmeter-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-08-30T16:01:45.216757318Z"

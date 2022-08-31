@@ -3,6 +3,28 @@ entries:
   jmeter:
   - apiVersion: v2
     appVersion: "5.5"
+    created: "2022-08-31T15:10:32.57200484Z"
+    description: A Helm chart for JMeter
+    digest: 120817448dec12b11c8ad3f2863c2b7cb9219a3548c57cb0fb86029ac54385c8
+    icon: https://jmeter.apache.org/images/logo.svg
+    keywords:
+    - JMeter
+    - Performance
+    - Distribution
+    - Test
+    maintainers:
+    - email: liukunup@outlook.com
+      name: Liu Kun
+      url: https://github.com/liukunup
+    name: jmeter
+    sources:
+    - https://github.com/liukunup/JMeter
+    type: application
+    urls:
+    - https://github.com/liukunup/helm-charts/releases/download/jmeter-0.1.2/jmeter-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: "5.5"
     created: "2022-08-30T16:59:18.902551903Z"
     description: A Helm chart for JMeter
     digest: 2bdb21af7915c6e9e413e8f20e5dfde493a9dc5a1b8b6ab47f9500ee55139f19
@@ -45,4 +67,4 @@ entries:
     urls:
     - https://github.com/liukunup/helm-charts/releases/download/jmeter-0.1.0/jmeter-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-30T16:59:18.902573103Z"
+generated: "2022-08-31T15:10:32.57201434Z"

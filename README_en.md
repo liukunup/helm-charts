@@ -11,7 +11,7 @@
 To install the repo just run:
 
 ```bash
-helm repo add liukunup https://liukunup.github.io/helm-charts/
+helm repo add jmeter https://liukunup.github.io/helm-charts/
 helm repo update
 ```
 
@@ -20,7 +20,7 @@ helm repo update
 * [JMeter](https://liukunup.github.io/helm-charts/)
 
   ```bash
-  helm install my-release liukunup/jmeter
+  helm install my-release jmeter/jmeter
   ```
   
   ```bash

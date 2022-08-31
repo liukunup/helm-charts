@@ -4,7 +4,7 @@
 
 [Helm](https://helm.sh) repo for different charts related to JMeter which can be installed on [Kubernetes](https://kubernetes.io)
 
-[中文](README_en.md)
+[中文](README.md)
 
 ### Add Helm repository
 

@@ -19,11 +19,10 @@ helm repo update
 
 * [JMeter](https://liukunup.github.io/helm-charts/)
 
-  安装
   ```bash
   helm install my-release liukunup/jmeter
   ```
-  卸载
+
   ```bash
   helm delete my-release
   ```

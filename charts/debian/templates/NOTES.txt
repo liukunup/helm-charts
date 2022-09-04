@@ -1,0 +1,6 @@
+Debian {{ .Chart.AppVersion }}
+
+常用命令:
+
+- 进入`Bash`命令行
+  kubectl exec -it $(kubectl get pods -namespace {{ .Release.Namespace }} | grep {{ include "debian.fullname" . }} | awk '{print $1}') -namespace {{ .Release.Namespace }} -- /bin/bash

@@ -1,5 +1,26 @@
 apiVersion: v1
 entries:
+  debian:
+  - apiVersion: v2
+    appVersion: bullseye
+    created: "2022-09-04T06:45:26.068135027Z"
+    description: Debian is a Linux distribution that's composed entirely of free and
+      open-source software.
+    digest: 17ff62d6dc73eb3188e9edfe71df6a1048f5ad2018095cd14d7dc948bfd7c2ef
+    icon: https://www.debian.org/Pics/debian-logo-1024x576.png
+    keywords:
+    - Debian
+    maintainers:
+    - email: liukunup@outlook.com
+      name: Liu Kun
+      url: https://github.com/liukunup
+    name: debian
+    sources:
+    - https://github.com/liukunup/helm-charts
+    type: application
+    urls:
+    - https://github.com/liukunup/helm-charts/releases/download/debian-0.0.1/debian-0.0.1.tgz
+    version: 0.0.1
   jmeter:
   - apiVersion: v2
     appVersion: "5.5"
@@ -67,4 +88,4 @@ entries:
     urls:
     - https://github.com/liukunup/helm-charts/releases/download/jmeter-0.1.0/jmeter-0.1.0.tgz
     version: 0.1.0
-generated: "2022-08-31T15:10:32.57201434Z"
+generated: "2022-09-04T06:45:26.068147628Z"

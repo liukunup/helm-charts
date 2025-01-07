@@ -34,18 +34,27 @@ serviceAccount:
 
 # 不常用选项
 podAnnotations: {}
-podSecurityContext: {}
-securityContext: {}
+podSecurityContext:
+  runAsNonRoot: true
+  runAsUser:  405
+  runAsGroup: 100
+  fsGroup:    100
+  seccompProfile:
+    type: "RuntimeDefault"
+securityContext:
+  allowPrivilegeEscalation: false
+  capabilities:
+    drop: ["ALL"]
 
 
 # 资源占用&限制
-resources: {}
-  # requests:
-  #   cpu: 100m
-  #   memory: 128Mi
-  # limits:
-  #   cpu: 100m
-  #   memory: 128Mi
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  limits:
+    cpu: 100m
+    memory: 128Mi
 
 
 # 水平自动扩缩容

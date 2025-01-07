@@ -109,6 +109,11 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           args: ["keepalive"]
+          ports:
+            - name: server-port
+              containerPort: 1099
+            - name: local-port
+              containerPort: 50000
           env:
             - name: JVM_ARGS
               valueFrom:

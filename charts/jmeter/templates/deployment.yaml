@@ -112,8 +112,6 @@ spec:
           ports:
             - name: server-port
               containerPort: 1099
-            - name: local-port
-              containerPort: 50000
           env:
             - name: JVM_ARGS
               valueFrom:

@@ -118,15 +118,6 @@ spec:
                 configMapKeyRef:
                   name: {{ include "jmeter.fullname" . }}
                   key: JVM_ARGS
-          livenessProbe:
-            exec:
-              command:
-              - date
-            periodSeconds: 5
-          readinessProbe:
-            tcpSocket:
-              port: 1099
-            initialDelaySeconds: 5
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
